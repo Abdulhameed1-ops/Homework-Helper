@@ -87,7 +87,7 @@ def extract_text_from_image(image_file):
 
 def explain_homework_with_ai(text):
     """Uses Cohere REST API to explain homework"""
-    url = "https://api.cohere.ai/v1/generate"
+    url = "https://api.cohere.ai/v1/chat"
 
     headers = {
         "Authorization": f"Bearer {COHERE_API_KEY}",
