@@ -10,8 +10,10 @@ st.set_page_config(
 )
 
 # ================= API KEYS =================
-OCR_API_KEY = "K84693558988957"
-COHERE_API_KEY = "bf5Qur8XrFgfmiAoU0KL111qbVud0P2KGQFZvdW8"
+import os
+
+OCR_API_KEY = st.secrets["OCR_API_KEY"]
+COHERE_API_KEY = st.secrets["COHERE_API_KEY"]
 # ================= CUSTOM CSS =================
 st.markdown("""
 <style>
