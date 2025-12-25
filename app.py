@@ -104,7 +104,7 @@ Homework:
 """
 
     data = {
-        "model": "command-r-plus",
+        "model": "command-a-03-2025",
         "prompt": prompt,
         "max_tokens": 450,
         "temperature": 0.4
